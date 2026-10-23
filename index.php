@@ -6,5 +6,10 @@
     <script src="./js/mian.js" defer></script>
 </head>
 <body>
-    
+    <h2>JS Capture Keyboard Input Example</h2>
+    <h3>onkeydown - onkeyup</h3>
+    Key pressed: <span id="kp"></span>
+    <br />
+    Key code: <span id="kc"></span>
+    <p id="status">Keyboard Event Status</p>
 </body>
