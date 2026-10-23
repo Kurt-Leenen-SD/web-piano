@@ -5,9 +5,16 @@ document.onkeydown = function(e) {
   document.getElementById('kc').innerHTML = key_code;
   var status = document.getElementById('status');
   status.innerHTML = 'Down Event Fired For: ' + key_press; 
+  if (key_press == 'a') {
+    console.log("a has been pressed")
+  }
 }
 document.onkeyup = function(e) {
   var key_press = e.key;
   var status = document.getElementById('status');
-  status.innerHTML = 'Up Event Fired For: ' + key_press; 
+  status.innerHTML = 'Up Event Fired For: ' + key_press;
+  if (key_press == 'a') {
+    console.log("a has been released")
+  }
 }
+
