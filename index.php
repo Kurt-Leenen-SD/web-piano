@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Piano</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/mian.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </head>
 <body>
     <h2>JS Capture Keyboard Input Example</h2>
