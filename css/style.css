@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+.PianoKeys {
+    
+}
+
+.Key {
+    height: 6rem;
+    width: 3rem;
+    background-color: aqua;
+}
