@@ -7,6 +7,8 @@ document.onkeydown = function(e) {
   status.innerHTML = 'Down Event Fired For: ' + key_press; 
   if (key_press == 'a') {
     console.log("a has been pressed")
+    var key = document.getElementById('a')
+    key.classList.add("Key_Down")
   }
 }
 document.onkeyup = function(e) {
@@ -15,6 +17,8 @@ document.onkeyup = function(e) {
   status.innerHTML = 'Up Event Fired For: ' + key_press;
   if (key_press == 'a') {
     console.log("a has been released")
+    var key = document.getElementById('a')
+    key.classList.remove("Key_Down")
   }
 }
 

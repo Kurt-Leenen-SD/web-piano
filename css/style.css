@@ -19,3 +19,7 @@ h1 {
     width: 3rem;
     background-color: aqua;
 }
+
+.Key_Down {
+    background-color: rgb(0, 130, 130);
+}
