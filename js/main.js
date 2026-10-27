@@ -1,3 +1,5 @@
+// gets the keys from the simple Keys.json
+
 let Keys = [];
 
 async function GetKeys() {
@@ -8,7 +10,14 @@ async function GetKeys() {
 }
 GetKeys();
 
-const piano_sound = new Audio('../audio/A1_C_100bpm.wav');
+// plays new audio Tone
+
+const synth = new Tone.Synth().toDestination();
+
+// const piano_sound = new Audio('../audio/A1_C_100bpm.wav');
+
+
+// detects user input
 
 document.onkeydown = function (e) {
     var key_press = e.key;
@@ -18,15 +27,12 @@ document.onkeydown = function (e) {
     var status = document.getElementById('status');
     status.innerHTML = 'Down Event Fired For: ' + key_press;
     for (let i = 0; i < Keys.length; i++) {
-        if (key_press == Keys[i]["key"]) {
+        if (key_press == Keys[i]["button"]) {
             // let old_note = Keys[i]
-            console.log(Keys[i]["key"])
+            console.log(Keys[i]["button"])
             var key = document.getElementById(i+1)
             key.classList.add("Key_Down")
-            piano_sound.play()
-            // if (key != old_note) {
-            //     piano_sound.pause()
-            // }
+            synth.triggerAttackRelease(String(Keys[i]["key"] + 4), 1)
         }
     }
 }
@@ -36,7 +42,7 @@ document.onkeyup = function (e) {
     var status = document.getElementById('status');
     status.innerHTML = 'Up Event Fired For: ' + key_press;
     for (let i = 0; i < Keys.length; i++) {
-        if (key_press == Keys[i]["key"]) {
+        if (key_press == Keys[i]["button"]) {
             var key = document.getElementById(i+1)
             key.classList.remove("Key_Down")
         }

@@ -4,6 +4,7 @@
     <title>Web Piano</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js" defer></script>
+    <script src="./js/Tone.js"></script>
 </head>
 <body>
     <h2>JS Capture Keyboard Input Example</h2>

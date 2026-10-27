@@ -1,29 +1,38 @@
 [
     {
-        "key": "a"
+        "button": "a",
+        "key": "A"
     },
     {
-        "key": "s"
+        "button": "s",
+        "key": "B"
     },
     {
-        "key": "d"
+        "button": "d",
+        "key": "C"
     },
     {
-        "key": "f"
+        "button": "f",
+        "key": "D"
     },
     {
-        "key": "g"
+        "button": "g",
+        "key": "E"
     },
     {
-        "key": "h"
+        "button": "h",
+        "key": "F"
     },
     {
-        "key": "j"
+        "button": "j",
+        "key": "G"
     },
     {
-        "key": "k"
+        "button": "k",
+        "key": "A"
     },
     {
-        "key": "l"
+        "button": "l",
+        "key": "B"
     }
 ]
