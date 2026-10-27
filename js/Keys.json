@@ -1,0 +1,38 @@
+[
+    {
+        "button": "a",
+        "key": "A"
+    },
+    {
+        "button": "s",
+        "key": "B"
+    },
+    {
+        "button": "d",
+        "key": "C"
+    },
+    {
+        "button": "f",
+        "key": "D"
+    },
+    {
+        "button": "g",
+        "key": "E"
+    },
+    {
+        "button": "h",
+        "key": "F"
+    },
+    {
+        "button": "j",
+        "key": "G"
+    },
+    {
+        "button": "k",
+        "key": "A"
+    },
+    {
+        "button": "l",
+        "key": "B"
+    }
+]
