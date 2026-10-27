@@ -13,7 +13,14 @@
     Key code: <span id="kc"></span>
     <p id="status">Keyboard Event Status</p>
     <main class="PianoKeys">
-        <div class="Key" id="a"></div>
-        div.Key#$*10
+        <div class="Key" id="1">a</div>
+        <div class="Key" id="2">s</div>
+        <div class="Key" id="3">d</div>
+        <div class="Key" id="4">f</div>
+        <div class="Key" id="5">g</div>
+        <div class="Key" id="6">h</div>
+        <div class="Key" id="7">j</div>
+        <div class="Key" id="8">k</div>
+        <div class="Key" id="9">l</div>
     </main>
 </body>
