@@ -15,16 +15,42 @@
     Key code: <span id="kc"></span>
     <p id="status">Keyboard Event Status</p>
     <main class="PianoKeys">
-        <div class="Key" id="1">a</div>
-        <div class="Key" id="2">s</div>
-        <div class="Key" id="3">d</div>
-        <div class="Key" id="4">f</div>
-        <div class="Key" id="5">g</div>
-        <div class="Key" id="6">h</div>
-        <div class="Key" id="7">j</div>
-        <div class="Key" id="8">k</div>
-        <div class="Key" id="9">l</div>
-        div.Key#$*9>P*2
+        <div class="Key" id="1">
+            <P>(C)</P>
+            <P>a</P>
+        </div>
+        <div class="Key" id="2">
+            <P>(D)</P>
+            <P>s</P>
+        </div>
+        <div class="Key" id="3">
+            <P>(E)</P>
+            <P>d</P>
+        </div>
+        <div class="Key" id="4">
+            <P>(F)</P>
+            <P>f</P>
+        </div>
+        <div class="Key" id="5">
+            <P>(G)</P>
+            <P>g</P>
+        </div>
+        <div class="Key" id="6">
+            <P>(A)</P>
+            <P>h</P>
+        </div>
+        <div class="Key" id="7">
+            <P>(B)</P>
+            <P>j</P>
+        </div>
+        <div class="Key" id="8">
+            <P>(C)</P>
+            <P>k</P>
+        </div>
+        <div class="Key" id="9">
+            <P>(D)</P>
+            <P>l</P>
+        </div>
     </main>
 </body>
 </html>
