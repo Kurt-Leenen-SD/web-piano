@@ -1,38 +1,47 @@
 [
     {
         "button": "a",
-        "key": "A"
+        "key": "C",
+        "pitch": 4
     },
     {
         "button": "s",
-        "key": "B"
+        "key": "D",
+        "pitch": 4
     },
     {
         "button": "d",
-        "key": "C"
+        "key": "E",
+        "pitch": 4
     },
     {
         "button": "f",
-        "key": "D"
+        "key": "F",
+        "pitch": 4
     },
     {
         "button": "g",
-        "key": "E"
+        "key": "G",
+        "pitch": 4
     },
     {
         "button": "h",
-        "key": "F"
+        "key": "A",
+        "pitch": 4
     },
     {
         "button": "j",
-        "key": "G"
+        "key": "B",
+        "pitch": 4
     },
     {
         "button": "k",
-        "key": "A"
+        "key": "C",
+        "pitch": 5
     },
     {
         "button": "l",
-        "key": "B"
+        "key": "D",
+        "pitch": 5
     }
 ]

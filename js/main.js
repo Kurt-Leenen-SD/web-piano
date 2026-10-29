@@ -14,8 +14,7 @@ GetKeys();
 
 const synth = new Tone.Synth().toDestination();
 
-// const piano_sound = new Audio('../audio/A1_C_100bpm.wav');
-
+const Tone_Length = 0.5;
 
 // detects user input
 
@@ -28,11 +27,10 @@ document.onkeydown = function (e) {
     status.innerHTML = 'Down Event Fired For: ' + key_press;
     for (let i = 0; i < Keys.length; i++) {
         if (key_press == Keys[i]["button"]) {
-            // let old_note = Keys[i]
             console.log(Keys[i]["button"])
             var key = document.getElementById(i+1)
             key.classList.add("Key_Down")
-            synth.triggerAttackRelease(String(Keys[i]["key"] + 4), 1)
+            synth.triggerAttackRelease(String(Keys[i]["key"] + Keys[i]["pitch"]), Tone_Length)
         }
     }
 }
